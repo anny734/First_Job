@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Valication</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form class="myForm">
+            <div class="one">
+                <label class="two" for="fname">First Name</label>
+                <input class="three" id="fname" type="text" required>
+            </div>
+            <div class="one">
+                <label class="two" for="lname">Last Name</label>
+                <input class="three" id="lname" type="text" required>
+            </div>
+            <div class="one">
+                <label class="two" for="dob">Date of Birth</label>
+                <input class="three" type="text" id="dob" required>
+            </div>
+            <div class="one">
+                <label class="two" for="hobby">Hobbies</label>
+                <div class="three" id="check">
+                    <input class="four" id="h1" type="checkbox">
+                    <label class="four" for="hobby">Reading</label><br>
+                    <input class="four" id="h2" type="checkbox">
+                    <label class="four" for="hobby">Watching Movies</label><br>
+                    <input class="four" id="h3" type="checkbox">
+                    <label class="four" for="hobby">Photography</label>
+                </div>
+            </div>
+            <div class="one">
+                <label class="two" for="writer">Favorite Writer</label>
+                <input class="three" id="writer" type="text">
+            </div>
+            <div class="one">
+                <button type="reset" class="two">Reset</button>
+                <button type="submit" class="three" onsubmit="myFunc()">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

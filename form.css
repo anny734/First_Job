@@ -1,0 +1,30 @@
+h1{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.myForm{
+    display: table;
+    
+}
+.one{
+    display: table-row;
+}
+.two{
+        display: table-cell;
+        
+}
+.three{
+    display: table-cell;
+}
+button{
+    background-color: rgb(49, 236, 74);
+    border-radius: 35%;
+    /* border-spacing: 120px; */ 
+}
+.myForm,.one,.two,.three{
+    border : 1px solid black;
+    height: 40px;
+    text-align: center;
+    width: 150PX;
+}
+

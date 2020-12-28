@@ -1,0 +1,16 @@
+1) create the folder for our project
+2) go to cmd of the above project
+  a) npm init
+  b) npm insatll node-sass
+3) go to package.json file and write as below
+    "scripts": {"sass": "node-sass -w ./scss/ -o ./css/ --recursive"}
+4) go to cmd or terminal in vscode of that folder 
+   npm run sass
+5) clt + S in the scss file then css file will automatically generated 
+6) we will be able see changes in terminal 
+7) clt + C to end watch
+
+or 
+
+npm install -g sass
+sass --watch

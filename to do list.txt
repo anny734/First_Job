@@ -1,3 +1,6 @@
+All Assignments, workshop with all concepts of all technologies 
+Information related to implementation of mini project . etc 
+
 task1
 
 1. Create a folder and name it AvengersInitiative.
